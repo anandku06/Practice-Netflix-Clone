@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+
+.background {
+  height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(transparent, black), url(./back.jpg);
+  object-fit: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  gap: 800px;
+}
+.nav-buttons {
+  align-self: center;
+}
+.logo {
+  padding-left: 150px;
+  padding-top: 20px;
+}
+#language {
+  font-size: 15px;
+  background-color: black;
+  color: white;
+  border: 1px gray solid;
+  margin-right: 20px;
+  padding: 3px 15px;
+  cursor: pointer;
+}
+
+.sign-in {
+  border-radius: 5px;
+  padding: 5px 20px;
+  background-color: red;
+  color: white;
+}
+.sign-in:hover {
+  background-color: brown;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+
+.body-1 {
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
+.line {
+  font-family: "Martel Sans", sans-serif;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+
+.get-started {
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.get-started:hover {
+  background-color: brown;
+  cursor: pointer;
+  transition: ease-in 0.2s;
+}
+#email {
+  opacity: 0.7;
+  background-color: black;
+  padding-left: 20px;
+  color: whitesmoke;
+  height: 50px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px grey solid;
+}
+.st {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 0;
+}
+.nd {
+  font-size: 1.75rem;
+  font-weight: 900;
+}
+.rd {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.sep {
+  background-color: rgb(58, 57, 57);
+  width: 100%;
+  height: 10px;
+}
+.body-2 {
+  color: white;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.text {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.tvvid1 img {
+  height: 350px;
+}
+
+.tv-video1 {
+  height: 329px;
+  width: 338px;
+  object-fit: contain;
+  z-index: -1;
+  position: absolute;
+  right: 17.2%;
+}
+
+.mobile-img {
+  position: relative;
+}
+
+.boxshot-img{
+  background-color: black;
+  position: absolute;
+  left: 20%;
+  bottom: 15%;
+  z-index: 5;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  align-items: center;
+  line-height: 20px;
+}
+
+.boxshot-img img {
+  height: 74px;
+  width: 54px;
+}
+
+.down{
+  color: blue;
+}
+
+.body-3{
+  color: white;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.body-4{
+  color: white;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Martel Sans", sans-serif;
+}
+
+.tv-video2 {
+  height: 350px;
+  width: 300px;
+  z-index: -1;
+  position: absolute;
+  right: 21%;
+}
+
+.tvvid1 img {
+  height: 350px;
+}
